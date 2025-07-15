@@ -24,6 +24,7 @@ export default defineConfig({
     }
   },
   server: {
+   allowedHosts: ['smart-photo-editor.onrender.com']
    port: process.env.PORT || 3000,
   host: true,
   strictPort: true
